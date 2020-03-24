@@ -1,0 +1,130 @@
+#main {
+  width: 850px; 
+  height: 400px;    
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#cover-photo {
+  width: 850px;
+  height: 400px;
+  background: linear-gradient(rgba(0,0,0,0) 51%, rgba(0,0,0, .53)), url("https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/14729248_345961762422788_575914461682917055_n.jpg?_nc_cat=102&_nc_sid=05277f&_nc_ohc=vPhBRrnL65QAX9pUM-h&_nc_ht=scontent-hel2-1.xx&oh=70019935505320df2e3991aefefe07b2&oe=5E9D9BAB") no-repeat;  
+}
+
+#function {
+  width: 850px;
+  height: 6%;
+  border-radius: 1px solid;
+  background-color: white;
+  position: absolute;
+  top: 376px;
+  box-shadow: 1.5px 1.5px 1.5px rgb(233, 235, 238);
+}
+
+.fa-camera {
+  position: absolute;
+  top: 25px;
+  margin-left: 30px;
+  font-size: 23px;
+  color: hsl(150, 3%, 76%);
+}
+table {
+  margin-left: 210px;
+  border-collapse: collapse;
+
+}
+th {
+  text-align: center;
+  border-left: 1px solid rgb(233, 235, 238);
+  padding: 0px 25px;
+  height: 32px;
+  font-size: 13px;
+  font-weight: 550;
+  color: rgb(66, 103, 178);
+}
+
+#profile-pic {
+  background-color: white;
+  width: 170px;
+  height: 170px;  
+  top: 225px;
+  position: absolute;
+  margin-left: 17px;
+  border: 1px solid rgb(233, 235, 238);
+  border-radius: 3px;
+}
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+  
+}
+#name {
+  font-size: 22px;
+  color: white;
+  margin-left: 210px;
+  top: 315px;
+  position: absolute;
+  
+}
+#others {
+  font-size: 12px;
+  top: 335px;
+  margin-left: 550px;
+  position: absolute;
+  background: white;
+  border: 1px solid rgb(233, 235, 238);
+  border-radius: 2px;
+}
+#info {
+  margin: 0 auto;
+  padding: 5px 30px;
+}
+#activ {
+  font-size: 12px;
+  top: 335px;
+  margin-left: 700px;
+  position: absolute;
+  background: white;
+  border: 1px solid rgb(233, 235, 238);
+  border-radius: 2px;
+
+}
+#activity {
+  margin: 0 auto;
+  padding: 5px 40px;
+}
+.fa {
+  display: inline;
+  font-size: 20px;
+  margin-left: 20px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.overlay {
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+  right: 3.5px;
+  height: 0px;
+  overflow: hidden;
+  background-color: black;
+  opacity: 0.7;
+  transition: .5s ease;
+}
+#profile-pic:hover .overlay {
+  height: 30%;
+}
+#text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
